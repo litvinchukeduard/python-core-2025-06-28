@@ -28,5 +28,11 @@ def find_uniq(numbers_list: list[int]) -> int:
         if first_number != second_number:
             return second_number
         
+def find_uniq_two(numbers_list: list[int]) -> int:
+    min_value = min(numbers_list)
+    max_value = max(numbers_list)
 
-print(find_uniq([ 2, 1, 1, 1, 1, 1 ])) # Fails on this option
+    if max_value != min_value:
+        return max_value
+
+print(find_uniq_two([ 2, 1, 1, 1, 1, 1 ])) # Fails on this option
