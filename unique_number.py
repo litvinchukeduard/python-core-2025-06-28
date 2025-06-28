@@ -29,4 +29,4 @@ def find_uniq(numbers_list: list[int]) -> int:
             return second_number
         
 
-print(find_uniq([ 2, 1, 1, 1, 1, 1 ]))
+print(find_uniq([ 2, 1, 1, 1, 1, 1 ])) # Fails on this option
